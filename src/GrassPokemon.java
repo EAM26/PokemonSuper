@@ -8,6 +8,13 @@ public class GrassPokemon extends PokemonSuper{
         this.waterResistant = waterResistant;
     }
 
+    public void speak() {
+        System.out.println(this.getName() + " is saying: " + this.getSound());
+    }
+
+    public void leachSeed() {
+        System.out.println(this.getName() + " has planted a seed in his opponnet and is draining power.");
+    }
     public void solarBeam() {
         System.out.println(this.getName() + " is attacking with Solar Beam!!!!");
     }

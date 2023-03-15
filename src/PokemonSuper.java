@@ -10,7 +10,7 @@ public abstract class PokemonSuper {
 
 //     Speak method with unique sound
     public void speak() {
-        System.out.println(this.getName() + " is saying: " + this.getSound());
+        System.out.println(this.getName() + " is saying: MWAUHHH");
     }
 
     // Eat method with unique food

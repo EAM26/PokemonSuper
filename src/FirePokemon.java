@@ -10,6 +10,13 @@ public class FirePokemon extends PokemonSuper{
 
     }
 
+    public void speak() {
+        System.out.println(this.getName() + " is saying: " + this.getSound());
+    }
+
+    public void heatUp() {
+        System.out.println(this.getName() + " is heating up to 1000 degrees!");
+    }
     public void flameThrower() {
         System.out.println(this.getName() + " is throwing flames with " + this.getHeat() + " points.");
     }

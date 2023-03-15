@@ -9,6 +9,13 @@ public class WaterPokemon extends PokemonSuper{
         this. fireResistant = fireResistant;
     }
 
+    public void speak() {
+        System.out.println(this.getName() + " is saying: " + this.getSound());
+    }
+
+    public void surf() {
+        System.out.println(this.getName() + " is surfing the waves!!!!!1");
+    }
     public void waterBlast() {
         System.out.println(this.getName() + " blasts water with " + this.getBlastPower() + " points.");
     }
