@@ -10,8 +10,28 @@ public class FirePokemon extends PokemonSuper{
 
     }
 
+    public void flameThrower() {
+        System.out.println(this.getName() + " is throwing flames with " + this.getHeat() + " points.");
+    }
+
     @Override
     public void attack() {
+        this.flameThrower();
+    }
 
+    public int getHeat() {
+        return heat;
+    }
+
+    public void setHeat(int heat) {
+        this.heat = heat;
+    }
+
+    public boolean isBurnImunity() {
+        return burnImunity;
+    }
+
+    public void setBurnImunity(boolean burnImunity) {
+        this.burnImunity = burnImunity;
     }
 }
