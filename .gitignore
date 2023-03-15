@@ -1,0 +1,7 @@
+# geen IntelliJ bestanden in git:
+*.iml
+.idea/
+out/
+
+# geen product(en) van Maven in git:
+target/
