@@ -24,7 +24,7 @@ Elke pokemon heeft een x aantal "health points" of "hp" en elke keer wanneer dez
 
 Je gaat een applicatie programmeren die meerdere nieuwe Pokèmon kan aanmaken. Degenen die bekend zijn met Pokèmon weten
 dat deze altijd een _type_ hebben (sterker nog: Pokèmon kunnen meerdere types tegelijk zijn, maar om het niet te moeilijk
-te maken, maken we gebruik van één type per Pokèmon). Voorbeelden van deze typen zijn: Fire 🔥, Water 🌊, Grass 🌿 en
+te maken, maken we gebruik van één type per Pokèmon). Voorbeelden van deze typen zijn: FirePokemon 🔥, Water 🌊, Grass 🌿 en
 Electric ⚡.
 
 Naast hun type, hebben Pokèmon natuurlijk bepaalde eigenschappen met elkaar gemeen. Daarom maken we gebruik van een
